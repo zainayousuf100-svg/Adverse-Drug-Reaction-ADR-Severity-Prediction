@@ -12,10 +12,7 @@ NOTE ON DATA: This script generates a realistic SYNTHETIC dataset that
 mirrors the structure of real ADR/ICSR reports (patient demographics, drug
 class, dosage, duration, comorbidities, polypharmacy). This is a common and
 accepted practice for a portfolio project when real patient data is
-confidential. For a production version, this pipeline is designed to be
-dropped directly onto a real dataset such as the FDA FAERS (FDA Adverse
-Event Reporting System) public dataset -- see README for details.
-"""
+confidential. 
 
 import numpy as np
 import pandas as pd
